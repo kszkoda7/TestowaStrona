@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    width: 70px;
+    border: 1px solid blue;
+    border-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
+}
+.btn {
+    border: 2px solid lightblue;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: lightblue;
+}
+header {
+
+    background-color: white;
+
+}
+h1 {
+    font-size: 45px;
+    color: rgb(54, 44, 44);
+}
+.main-menu {
+    background-color: blue;
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    padding: 5px;
+    
+
+}
+.main-menu ul li a:hover {
+     transition: 1s;
+    color: blue;
+    background-color: white;
+    
+}
+
+
+.main-header-content {
+    color: blue;
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header {
+    height: 70vh;
+    background-image: url('img/baner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-menu ul {
+    display: flex;
+}
+.main-menu ul li {
+    list-style: none;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+
+#about {
+    background-color: azure;
+    text-align: center;
+
+}
+
+#about .about-img {
+    border-radius: 50%;
+    width: 350px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 30px auto;
+    color: brown;
+    line-height: 1.4;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex-basis: 33%;
+    height: 200px;
+    position: relative;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-item h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    color: blueviolet;
+    font-size: 3em;
+    opacity: 0;
+}
+
+.portfolio-item h3:hover {
+    opacity: 1;
+    transition: all 1s;
+}
+
+#contact form {
+    max-width: 700px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+#contact {
+    text-align: center;
+    
+}
+
+input[type='email'] , input[type='text']{
+    flex-basis: 48%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    flex-basis: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+}
+.main-footer {
+    text-align: center;
+    padding: 30px;
+    background-color: grey;
+    
+}
+
+.social-links {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.social-link {
+    font-size: 2em;
+    color: blue;
+    transition:  all .5s;
+    display: inline-block;
+    margin:  0 20px;
+}
+
+.social-link:hover {
+    color: grey;
+}
+
+.portfolio {
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+
+
+
+
+
